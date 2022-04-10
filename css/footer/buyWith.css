@@ -1,0 +1,52 @@
+#buy-it-with h2{
+    color: #C60;
+    font-family: verdana,arial,helvetica,sans-serif;
+    padding-bottom: 4px;
+}
+
+#buy-it-with .wrap{
+    gap: 8px;
+    text-align: center;
+    padding: 10px 0 ;
+    margin: 1rem 0;
+    padding-left: 10px;
+}
+#buy-it-with .plus{
+    font-size: 24px;
+    color: #565959;
+
+}
+
+#buy-it-with .wrap .add-to{
+    align-self: start;
+}
+#buy-it-with .wrap .add-to button{
+    display: block;
+    border: none;
+    cursor: pointer;
+    padding: 0.35rem 0.55rem;
+    width: 100%;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    border-radius: 20px;
+    margin: 0.5rem 0;
+    font-size: 11px;
+    text-align: center;
+}
+#buy-it-with .notes{
+    padding: 10px 0 10px 0;
+    flex-wrap: wrap;
+
+    
+}
+#buy-it-with  .wrap-check-box {
+    padding-left: 10px;
+    line-height: 1.5;
+}
+#buy-it-with .notes i{
+    display: inline-block;
+    background: url('../../assets/images/3-fm1Jbg4IHlyhq.png') no-repeat -412px -29px;
+	width: 18px;
+	height: 18px;
+    overflow: hidden;
+    margin-right: 6px;
+}

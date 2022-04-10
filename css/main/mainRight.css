@@ -1,0 +1,87 @@
+
+.mainRight .wrap-top,.mainRight .wrap-center{
+    border: 1px solid #D5D9D9;
+    border-radius: 8px;
+    padding: 18px  14px;
+    margin-bottom:14px ;
+
+}
+.mainRight .wrap-top >div{
+    margin-bottom: 16px;
+}
+.mainRight .wrap-top >div >p{
+    margin-bottom: 6px;
+}
+
+.mainRight .wrap-top .price-shipping h2{
+margin-bottom: 4px;
+font-weight: 500;
+}
+.mainRight .wrap-top button{
+  display: block;
+    }
+.mainRight a{
+    display: inline-block;
+    color: #007185;
+    margin-bottom: 4px;
+}
+.mainRight .wrap-top .secure-shipping-from .ship-sold-box{
+    display: grid;
+    grid-template-columns: min-content auto;
+    width: 100%;
+    white-space: nowrap;
+    gap: 0.25rem;
+    
+}
+.mainRight .wrap-top .secure-shipping-from .ship-sold-box p:nth-child(odd){
+padding-right: 10px;
+}
+
+.mainRight .wrap-top .policy-support .details{
+    margin-bottom: 12px;
+}
+.mainRight .wrap-top .policy-support >p,.wrap-top .policy-support a{
+    margin-bottom: 3px;
+}
+
+.mainRight .wrap-center{
+    margin: 25px 0;
+}
+.mainRight .wrap-center .news-from{
+    text-align: center;
+    align-items: center;
+   justify-content: space-between;
+}
+.mainRight .wrap-center a{
+    text-align: center;
+    color: #000;
+}
+.mainRight .wrap-center i{
+    display: inline-block;
+    background: url('../../assets/images/McBZv0ZvnbehkIx.png') no-repeat -5px -35px;
+	width: 11px;
+	height: 15px;
+   align-self: start;
+   margin-top: 2px;
+    
+}
+
+.mainRight button{
+    display: block;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 0.65rem;
+    width: 100%;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    border-radius: 20px;
+    margin: 0.5rem 0;
+    font-size: 13px;
+}
+
+
+.mainRight .wrap-top .add-to-list button{
+    border-radius: 0;
+    border: 1px solid #D5D9D9;
+    text-align: left;
+    background: linear-gradient(to bottom,#f7f8fa,#e7e9ec);
+}

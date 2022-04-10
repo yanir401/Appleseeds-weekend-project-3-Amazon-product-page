@@ -1,0 +1,30 @@
+#main-product .mainLeft .fixed {
+ position: sticky;
+ top: 0;
+    
+}
+
+#main-product .mainLeft .images-list .img-box{
+    border:1px solid #D5D9D9;
+    border-radius: 3px;
+    margin-bottom: 8px;
+}
+
+#main-product .mainLeft .images-list .img-box:hover,
+#main-product .mainLeft .images-list .img-box:active,
+#main-product .mainLeft .images-list .img-box:visited{
+border-color: #e77600;
+}
+
+#main-product .mainLeft .image-displaying{
+    top:1rem;
+    position: relative;
+    padding-left: 6.9px;
+    max-height: 700px;
+ 
+}
+#main-product .mainLeft .image-displaying img{
+    max-width: 685px;
+    max-height: 575.4px;
+    margin-top: 2.5rem;
+}

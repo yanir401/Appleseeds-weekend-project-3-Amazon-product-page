@@ -1,0 +1,38 @@
+@media   (min-width: 1001px)  and (max-width: 1300px) {
+  
+
+    #main-product{
+        grid-template-columns: 2fr 2fr; 
+    }
+    #main-product .mainRight{
+        grid-column: span 2;
+        text-align: center;
+    }
+   
+  }
+
+@media  (max-width: 1000px) {
+    header #mainNav  ul li:nth-child(even),header #mainNav  ul li:last-child{
+        display: none;
+     }
+     header #mainNav  ul {
+        flex-direction: column;
+      }
+      header #mainNav  ul li{
+        width: 85%;
+        text-align: center;
+    }
+    #main-product{
+        grid-template-columns: 1fr; 
+    }
+
+    #main-product .mainLeft .fixed{
+        justify-content: center;
+    }
+    #sponsored .sponsored-container{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+   
+  }

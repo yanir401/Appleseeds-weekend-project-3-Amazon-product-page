@@ -1,0 +1,111 @@
+/* Fonts */
+@font-face {
+    font-family: "Amazon Ember";    src: url('../assets/fonts/AmazonEmber.ttf'); /* IE9 Compat Modes */
+    src: url('../assets/fonts/AmazonEmber.ttf') format('ttf'), /* IE6-IE8 */
+         url('../assets/fonts/AmazonEmber.ttf') format('woff'), /* Modern Browsers */
+         url('../assets/fonts/AmazonEmber.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/AmazonEmber.ttf') format('svg'); /* Legacy iOS */
+  }
+
+/* Resets */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-family: "Amazon Ember";
+    
+}
+
+ul{
+    list-style: none;
+}
+/*End Of Resets */
+
+
+
+/* Flex-row */
+.flex-row{
+    display: flex;
+}
+.flex-row-al-c{
+    align-items: center;
+}
+
+.flex-row-c-c{
+    justify-content: center;
+    align-items: center;
+
+
+}
+.flex-row-wrap{
+    flex-wrap: wrap;
+}
+
+
+/* End Of Flex-row */
+/* Flex-Column */
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+/* End Of Flex-Column */
+
+/* Grid */
+
+/* End OfGrid */
+
+/* Hr */
+.hr{
+    background-color: transparent;
+    display: block;
+    height: 1px;
+    border-width: 0;
+    border-top: 1px solid #e7e7e7;
+    line-height: 19px;
+    margin-top: 0;
+    margin: 0.85rem 0;
+}
+/* End of  Hr */
+
+/* Text and colors*/
+.price-red{
+    color: #b12704;
+}
+
+.strong-size{
+    font-weight: 700;
+    color: #000;
+}
+
+.green-text{
+    color: #007600;
+}
+.black-text{
+    color: #000;
+}
+
+.font-12{
+    font-size: 12px;
+}
+.font-14{
+    font-size: 14px;
+}
+.font-16{
+    font-size: 16px;
+}
+.font-18{
+    font-size: 18px;
+}
+
+.bg-yellow{
+    background-color: #FFD814;
+}
+.bg-orange{
+    background-color: #FFA41C;
+}
+/* End Of Text colors */
